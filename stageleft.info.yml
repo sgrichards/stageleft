@@ -1,0 +1,12 @@
+name: stageleft
+type: profile
+description: 'Drupal 8 festival distro. \m/'
+core: 8.x
+distribution:
+  name: stageleft
+#  install:
+#    theme: stageleft_admin
+
+# Required modules
+dependencies:
+  - stageleft_core

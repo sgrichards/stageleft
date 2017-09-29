@@ -1,0 +1,54 @@
+name: Stageleft Core
+type: module
+description: 'platform core. \m/'
+core: 8.x
+
+# Required modules
+dependencies:
+  # core
+  - block
+  - breakpoint
+  - ckeditor
+  - contextual
+  - menu_link_content
+  - datetime
+  - editor
+  - entity_reference
+  - image
+  - menu_ui
+  - language
+  - node
+  - options
+  - path
+  - page_cache
+  - taxonomy
+  - dblog
+  - dynamic_page_cache
+  - toolbar
+  - field_ui
+  - file
+  - responsive_image
+  - views
+  - views_ui
+# contrib
+  - access_unpublished
+  - admin_toolbar
+  - ctools
+  - default_content
+  - entity
+  - entity_browser
+  - field_group
+  - google_analytics
+  - inline_entity_form
+  - linkit
+  - media
+  - media_entity
+  - media_entity_instagram
+  - media_entity_twitter
+  - metatag
+  - pathauto
+  - responsive_preview
+  - simple_sitemap
+  - token
+  - r4032login
+  - rabbit_hole
